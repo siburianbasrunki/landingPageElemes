@@ -1,9 +1,10 @@
 import { trendingData } from "@/store/trendingData";
 import Image from "next/image";
+import StarRating from "./Start";
 
 export const TrendingSection = () => {
   return (
-    <div className="container mx-auto ">
+    <div className="container mx-auto">
       <h1 className="text-3xl text-black font-bold ml-4">
         Browser Our Trending
       </h1>
@@ -17,8 +18,8 @@ export const TrendingSection = () => {
           >
             <Image src={item.image} alt={item.name} width={150} height={150} />
             <h1 className="text-2xl font-bold text-black">{item.name}</h1>
-            <p className="font-bold text-black">{item.category}</p>
-            <p className="font-bold text-black">Rating: {item.star}</p>
+            <p className="font-bold text-[#8BAC3E]">{item.category}</p>
+            <StarRating rating={item.star} />
           </div>
         ))}
       </div>
