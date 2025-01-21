@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Landing Page Test Elemes
 
-## Getting Started
+This repository contains a landing page project built with Next.js. You can view the live demo at [https://landing-page-elemes-rho.vercel.app/](https://landing-page-elemes-rho.vercel.app/)
 
-First, run the development server:
+## Prerequisites
+
+Before running this project, make sure you have the following installed on your machine:
+- Node.js (version 14 or higher)
+- npm (Node Package Manager) or yarn
+
+## Instalasi
+
+1. Clone repositori
+```bash
+git clone https://github.com/siburianbasrunki/landingPageElemes.git
+```
+
+2. Masuk ke direktori project
+```bash
+cd landingPageElemes
+```
+
+3. Install dependensi
+```bash
+npm install
+# atau
+yarn install
+```
+
+## Menjalankan Server Development
+
+Untuk memulai server development:
 
 ```bash
 npm run dev
-# or
+# atau
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka [http://localhost:3000](http://localhost:3000) dengan browser Anda untuk melihat hasilnya.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Untuk build :
 
-## Learn More
+```bash
+npm run build
+# atau
+yarn build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Kemudian, untuk memulai server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run start
+# atau
+yarn start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Teknologi yang Digunakan
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js
+- Daysi UI
+- TypeScript
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+
+Project ini di-deploy di Vercel
+
